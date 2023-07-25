@@ -1,3 +1,6 @@
+AOS.init();
+
+
 //background image slider
 
 const sliderImage = ["travel-experia1.jpeg", "travel-experia2.jpeg", "travel-experia3.jpeg", "travel-experia4.jpeg", "travel-experia5.jpeg", "travel-experia6.jpeg"];
@@ -42,17 +45,6 @@ const changeSliderImage = () => {
 }
 
 //navbar 
-
-// const navbar = document.querySelector('.navbar');
-
-// window.addEventListener('scroll', () => {
-//     if(scrollY >= 188){
-//         navbar.classList.add('bg');
-//     }else{
-//         navbar.classList.remove('bg');
-//     }
-// })
-
 
 const navbar = document.querySelector('.navbar');
 
